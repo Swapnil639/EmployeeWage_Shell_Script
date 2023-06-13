@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 get_work_hrs ()
 {
     emp_attendance=$1
