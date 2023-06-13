@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 get_work_hrs ()
 {
     emp_attendance=$1
@@ -37,8 +36,8 @@ done
 
 total_salary=$(( total_working_hrs * wage_per_hr ))
 echo "Total salary is $total_salary"
-echo "Daily wages:"
+echo "Day  Daily Wage"
 for key in "${!daily_wages[@]}"
 do
-    echo "$key: ${daily_wages[$key]}"
+    echo "$key ${daily_wages[$key]}"
 done
